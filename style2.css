@@ -1,0 +1,145 @@
+.main-content{
+min-height:1000px;
+width:90%;
+margin:20px auto;
+display:grid;
+grid-template-columns: 30% 70%;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+.left-section{
+    background: #242531;
+     }
+    .center{
+        display:block;
+        margin:auto;
+        border:5px solid white;
+        border-radius: 30%;
+        width: 60%; 
+    } 
+    .date{
+        display:flex;
+        justify-content: space-between;
+        padding-right: 20px;
+        padding-top:1rem;
+    }
+    .education-content{
+        margin-right:1rem ;
+        padding-right:0.6rem;
+       
+    
+    }
+    p{
+        padding-top:1rem;
+    }
+    h2.name{
+        padding:0.8rem;
+        color: #f5f5f5;
+        font-size:1.2rem;
+        font-weight:700;
+        text-align: center ;
+        word-spacing:0.02px ;
+    }
+    h4.designation{
+        color:#94D9EA;
+        font-size:1rem;
+        text-align: center;
+        word-spacing: 0.02;
+        padding:1rem;
+    }
+    p.description{
+        font-size:0.75rem;
+        text-align: center;
+        padding:1rem;
+        color: #F5F5F5;
+    }
+    .social-media{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:1rem;
+        color:#94D9EA;
+    }
+    .social-media i{
+        color:burlywood;
+        padding: 1rem;
+    }
+    .skills{
+        font-size:0.75rem;
+        text-align: center;
+        word-spacing: 0.02;
+        padding:1rem 0.5rem 1rem 0.5rem;
+        color:#F7F7F7;
+    }
+    .skill-name{
+        font-size:0.65rem;
+        text-align: left;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    .progress-bar{
+        border:1px white solid;
+    }
+    .personal-details{
+        padding:0.5rem;
+        color:#F5F5F5;
+
+    }
+   
+  .right-section{
+      background:#F7F7F7;
+     
+  }
+  .right-main-content{
+      padding:32px 48px 32px 48px;
+   
+  }
+  .about-sect{
+      font-size:1.2rem;
+      font-weight: 700;
+      padding:0.5rem;
+      word-spacing: 0.02;
+      letter-spacing: 1px;
+      text-align: left;
+  }
+  .education-sect{
+      font-size:1.2rem;
+      font-weight:700;
+      padding:0.5rem;
+      word-spacing: 0.02;
+      letter-spacing: 1px;
+      text-align: left;
+  }
+  .project-content p{
+    margin-right:1rem ;
+    padding-right:0.6rem;
+  }
+  .projects-sect{
+    font-size:1.2rem;
+    font-weight:700;
+    padding:0.5rem;
+    word-spacing: 0.02;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.s{
+    padding-top: 1rem;
+}
+.right-title{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+@media screen and (max-width:674px){
+    .main-content{
+        display: block;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+  
+
+  
